@@ -57,7 +57,7 @@ const ProjectsPage = () => {
               onMouseEnter={imageMouseEnterHandler}
               onMouseOut={imageMouseOutHandler}
               className={styles.image}
-              src="src\assets\nolangbarriers.com_.png"
+              src="assets\nolangbarriers.com_.png"
               alt=""
             />
           </a>

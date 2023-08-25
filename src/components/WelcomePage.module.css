@@ -19,7 +19,7 @@
   font-size: 5rem;
   font-weight: bold;
   text-transform: uppercase;
-  background-image: url(../assets/giphy.gif);
+  background-image: url(../../public/assets/giphy.gif);
   background-size: cover;
   background-position: center;
   background-clip: text;
@@ -34,7 +34,7 @@
   border: 5px solid rgb(38, 38, 38);
   width: 20rem;
   height: 20rem;
-  background-image: url(../assets/picture.png);
+  background-image: url(../../public/assets/picture.png);
   background-size: cover;
   animation: wiggle 7s ease-in-out infinite;
 }
