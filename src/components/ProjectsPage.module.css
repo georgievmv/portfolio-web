@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+iframe {
+  border-radius: 10px;
+  min-width: 400px;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+.card {
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.container {
+  margin-top: 3rem;
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+}
+
+.text {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text h2 {
+  font-family: Anton;
+  font-weight: 100;
+  text-align: center;
+}
+.paragraph {
+  text-align: center;
+  color: #767676;
+  font-size: 2.5rem;
+}
+.buttons {
+  display: flex;
+}
+.buttons a {
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+  width: fit-content;
+}
+.buttons a:hover {
+  transition: 0.3s;
+  color: #4267b2;
+}
+
+.buttons p {
+  margin: 0.5rem;
+}
+.image {
+  box-sizing: border-box;
+  padding: 1rem;
+  background-clip: border-box;
+  object-position: 0% 0%;
+  object-fit: cover;
+  height: 35rem;
+  width: 100%;
+}
+.imageLink {
+  width: 60%;
+}
+.image:hover {
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .card {
+    min-width: 400px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  iframe {
+    order: -1;
+  }
+
+  .paragraph {
+    font-size: 1.5rem;
+    min-width: 20rem;
+  }
+  .buttons {
+    width: max-content;
+  }
+  .image {
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+  .imageLink {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .buttons a {
+    font-size: 1.5rem;
+  }
+  iframe {
+    min-width: 300px;
+  }
+}
